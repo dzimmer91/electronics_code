@@ -24,4 +24,4 @@ bin/pol_rec_conversion: mains/main.cpp include/pol_rec.h lib/libpol_rec_conversi
 clean:
 	rm deps/*.o
 	rm lib/*.a
-	rm bin/*
+	rm -rf bin/*
