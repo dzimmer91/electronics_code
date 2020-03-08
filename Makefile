@@ -24,4 +24,5 @@ bin/pol_rec_conversion: mains/main.cpp include/pol_rec.h lib/libpol_rec_conversi
 clean:
 	rm deps/*.o
 	rm lib/*.a
+	#added -rf to rm as mac created directory when Compiled
 	rm -rf bin/*
